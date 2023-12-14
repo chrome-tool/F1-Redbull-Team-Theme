@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "F1 Redbull Team Theme",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "F1 Redbull Team WallPaper for Google Chrome.",
   "icons": {
-    "16": "icons/icon16.ico",
-    "48": "icons/icon48.ico",
-    "128": "icons/icon128.ico"
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "128": "images/icons/icon128.png"
 },
   "author": "Seiri",
   "theme": {
