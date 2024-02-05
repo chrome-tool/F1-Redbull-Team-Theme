@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "F1 Redbull Team Theme",
-  "version": "1.0.4",
-  "description": "F1 Redbull Team WallPaper for Google Chrome.",
+  "name": "__MSG_extName__",
+  "version": "1.0.5",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
   "icons": {
     "16": "images/icons/icon16.png",
     "48": "images/icons/icon48.png",
@@ -17,7 +18,11 @@
       "frame": [227, 23, 57],
       "frame_incognito": [227, 23, 57],
       "toolbar": [254, 228, 46],
-      "button_background": [40, 40, 40]
+      "ntp_background": [0, 0, 0],
+      "button_background": [40, 40, 40],
+      "bookmark_text": [0, 0, 0],
+      "bookmark_background": [255, 255, 0],
+      "bookmark_line": [0, 0, 255]
     }
   },
   "properties": {
@@ -26,6 +31,11 @@
     "ntp_logo_alternate": 1
   },
   "tints": {
-    "buttons": [0.5, 0.5, 0.5]
+    "buttons": [0.5, 0.5, 0.5],
+    "frame": [0.5, 0.5, 0.5],
+    "frame_inactive": [0.5, 0.5, 0.5],
+    "frame_incognito": [0.5, 0.5, 0.5],
+    "frame_incognito_inactive": [0.5, 0.5, 0.5],
+    "background_tab": [0.5, 0.5, 0.5]
   }
 }
